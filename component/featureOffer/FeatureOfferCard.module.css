@@ -1,0 +1,19 @@
+.FeatureOfferCard{
+    width: 298px;
+    height: 237px;
+    background-color:#F4F6F9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.btn{
+    background-color: white;
+    border:solid 2px orange;
+    
+    color: orange;
+    cursor: pointer;
+}
+/* .FeatureOfferCard :hover{
+box-shadow:5px 5px 5px 5px orange;
+   
+} */

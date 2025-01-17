@@ -1,0 +1,4 @@
+.SpeaksSection{
+    display: flex;
+    flex-wrap: wrap;
+}

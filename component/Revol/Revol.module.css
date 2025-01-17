@@ -1,0 +1,12 @@
+.RevolSection1{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    
+}
+.RevolSection2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+
+}

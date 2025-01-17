@@ -1,0 +1,13 @@
+.ContactMian{
+    background-image: url('../Assets/Frame\ 1707480630.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+   
+}
+.contactMainImage{
+    width: 90%;
+    margin-inline: auto;
+}

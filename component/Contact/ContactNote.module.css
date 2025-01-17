@@ -1,0 +1,17 @@
+.line{
+    border-left: 2px solid rgba(183, 176, 176, 0.783);
+    height: 50px;
+    padding-left: 10px;
+    
+
+
+}
+.speaksec1{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.SpeaksSection{
+    display: flex;
+    align-items: center;
+}

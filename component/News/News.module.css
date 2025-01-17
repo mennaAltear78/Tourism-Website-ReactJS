@@ -1,0 +1,10 @@
+.cardsSection2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.cardsSection1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}

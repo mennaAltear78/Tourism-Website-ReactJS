@@ -1,0 +1,13 @@
+.SpeaksSection span{
+ display: flex;
+ justify-content: center;
+
+}
+.SpeaksSection1{
+ font-size: 50px;
+
+}
+.SpeaksSection2{
+    font-size: 30px;
+   
+   }

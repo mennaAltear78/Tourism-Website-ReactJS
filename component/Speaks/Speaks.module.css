@@ -1,0 +1,17 @@
+.speaksec1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+   
+}
+.speaksec0{
+    font-size: 50px;
+    display: flex;
+   justify-content: center;
+   margin-bottom: 90px;
+}
+.line{
+    border-left: 4px solid rgba(95, 95, 95, 0.196);
+    height: 100px;
+
+}

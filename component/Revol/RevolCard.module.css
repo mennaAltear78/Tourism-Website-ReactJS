@@ -1,0 +1,23 @@
+.RevolCard{
+    width:399px ;
+    height:441px ;
+    background-color: #F4F6F9;
+    /* padding: 10px 10px; */
+    padding-left: 20px;
+    padding-top: 20px;
+    border: solid rgba(138, 134, 134, 0.525);
+    display: grid;
+    border-radius:15px ;
+
+
+}.RevolCard p{
+ color: rgba(138, 134, 134, 0.525);
+}
+.RelHr hr{
+width: 360px;
+background-color:rgba(138, 134, 134, 0.525) ;
+}
+.RelLogo img{
+    width: 80px;
+}
+  

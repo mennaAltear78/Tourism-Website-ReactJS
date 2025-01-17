@@ -1,0 +1,21 @@
+.startline{
+    width: 13px;
+    height: 48px;
+    background: linear-gradient(180deg, #DEC42F 0%, #D97220 100%);
+
+}
+.Title{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+}
+.TitleMain p{
+    color: rgba(128, 128, 128, 0.537);
+    font-size: 30px;
+}
+.TitleMain{
+    width: 90%;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}

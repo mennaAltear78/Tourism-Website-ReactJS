@@ -1,0 +1,28 @@
+.ServierOffer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    
+}
+.ServierOffer b{
+    font-size:40px;
+    
+}
+.ServierOfferSection1 p{
+    font-size:25px;
+    color: rgba(128, 128, 128, 0.58);
+
+}
+.ServierOfferSection1 {
+    width: 650px;
+    height: 500px;
+
+}
+.ServierOfferSection3 {
+ margin-bottom: 30px;
+
+}
+.ServierOfferSection3 {
+   font-size: 90px;
+   
+   }

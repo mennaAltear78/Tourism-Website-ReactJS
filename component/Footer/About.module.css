@@ -1,0 +1,16 @@
+.About{
+    color: white;
+    display: flex;
+    gap: 50px;
+   padding-top: 60px;
+   
+}
+.Aboutsection1{
+    width: 540px;
+    font-size: 20px;
+    color: var(--Text-Paragraph, rgba(179, 179, 179, 1));
+
+}
+button{
+    cursor: pointer;
+}

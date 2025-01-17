@@ -1,0 +1,26 @@
+.bigCard{
+    display: flex;
+    border: solid rgba(138, 134, 134, 0.525);
+    border-radius:15px ;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-inline:auto ;
+    height: 200px;
+    justify-content: space-between;
+    background-color: rgba(179, 179, 179, 0.107);
+    
+}
+.bigCardSection1 p{
+    color: gray;
+    width: 500px;
+    font-size: 15px;
+}
+
+.hrSection{
+    color: gray;
+    width: 100px;
+}
+.bigCardSection2{
+   height: 200px;
+}

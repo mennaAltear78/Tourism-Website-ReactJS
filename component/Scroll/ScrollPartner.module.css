@@ -1,0 +1,13 @@
+.ScrollPartner {
+margin-top: 60px;
+margin-bottom: 60px;
+
+}
+.ScrollPartnerSection b{
+    margin-top: 60px;
+    font-size: 60px;
+    display: flex
+;
+    /* align-items: center; */
+    justify-content: center;
+}

@@ -1,0 +1,50 @@
+.contactUs{
+    background-image: url('../Assets/Rectangle\ 24066.svg');
+  background-repeat: no-repeat;
+  background-size:cover;
+    height: 478px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-right: 100px;
+}
+.contactdiv{
+    margin-top: 80px;
+}
+.contactDivSection2{
+    background: linear-gradient(180deg, #DEC42F 0%, #D97220 100%);
+    display: flex;
+    gap: 60px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 600px;
+    height: 60px;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 20px;
+
+}
+.contactDivSection3{
+display: flex;
+/* justify-content: space-between; */
+margin-top: 20px;
+
+
+}
+.contactStore{
+    margin-left: 20px;
+
+}
+.contactStore img{
+    margin-left: 10px;
+    
+}
+.contactScan{
+    margin-left: 30px;
+}
+.contactTitle{
+    font-size: 30px;
+}
