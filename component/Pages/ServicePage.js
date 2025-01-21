@@ -5,8 +5,9 @@ import Title from '../Title';
 const ServicePage = (props) => {
     return (
         <div >
-             <Title title='Sphinx Terms&Condtion' description=' Last Update:12-02-2025'/>
-            <Service/>
+            <div style={{height:'100px'}}/>
+             <Title title='Sphinx Terms&Condtion' description=' Last Update:12-02-2025' darkMode={props.darkMode}/>
+            <Service darkMode={props.darkMode}/>
      
         </div>
     );

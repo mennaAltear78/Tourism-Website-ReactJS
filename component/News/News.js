@@ -10,16 +10,16 @@ const News = (props) => {
         <div>
                  <div className={style['cardsSection1']}>
                     
-                <RevolCard logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
-                <RevolCard logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
-                <RevolCard logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
+                <RevolCard darkMode={props.darkMode} logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
+                <RevolCard darkMode={props.darkMode} logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
+                <RevolCard darkMode={props.darkMode} logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
                 
             </div>
             <div className={style['cardsSection2']}>
                     
-                    <RevolCard logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
-                    <RevolCard logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
-                    <RevolCard logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
+                    <RevolCard darkMode={props.darkMode} logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
+                    <RevolCard darkMode={props.darkMode} logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
+                    <RevolCard darkMode={props.darkMode} logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
                     
                 </div>
         </div>

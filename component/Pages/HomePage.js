@@ -12,13 +12,14 @@ const HomePage = (props) => {
 
 
     return (<div>
-        <Main />
-        <ScrollPartner />
-        <ServierOffer />
-        <Speaks />
-        <FeatureOffer />
-        <Revol />
-        <ContactUs />
+        <div style={{height:'150px'}}/>
+        <Main darkMode={props.darkMode}/>
+        <ScrollPartner darkMode={props.darkMode}/>
+        <ServierOffer darkMode={props.darkMode}/>
+        <Speaks darkMode={props.darkMode}/>
+        <FeatureOffer darkMode={props.darkMode}/>
+        <Revol darkMode={props.darkMode}/>
+        <ContactUs darkMode={props.darkMode}/>
         </div>
     );
 };

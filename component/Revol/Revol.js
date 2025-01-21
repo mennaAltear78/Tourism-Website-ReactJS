@@ -8,14 +8,14 @@ const Revol = (props) => {
     
     return (
         <div>
-           <div className={style['RevolSection1']}> <b><span>Revolutionism</span> the ways we Travel</b>
+           <div className={style['RevolSection1']} > <b style={{color: props.darkMode ? 'white' : 'black',}}><span>Revolutionism</span> the ways we Travel</b>
            
            
            </div>
             <div className={style['RevolSection2']}>
-                <RevolCard logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
-                <RevolCard logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
-                <RevolCard logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
+                <RevolCard darkMode={props.darkMode} logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
+                <RevolCard darkMode={props.darkMode} logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
+                <RevolCard darkMode={props.darkMode} logo={logo} img={image} title='Lorem Ipsum is simply dummy text of the printing ' describtion='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,'/>
                 
             </div>
         </div>

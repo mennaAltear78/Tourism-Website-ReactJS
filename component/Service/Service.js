@@ -5,7 +5,7 @@ const Service = (props) => {
 
 
     return (
-        <div className={style['servDesc']} >
+        <div className={style['servDesc']} style={{color: props.darkMode ? 'white' : 'black',}}>
             {/* <div>
                 <div className={style['']}/>
                 <strong>Sphinx Terms&Condtion</strong>

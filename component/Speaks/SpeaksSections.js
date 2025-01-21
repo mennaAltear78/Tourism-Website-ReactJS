@@ -6,7 +6,7 @@ const SpeacksSection = (props) => {
     return (
         <div className={style['SpeaksSection']}>
            <span><b className={style['SpeaksSection1']}>{props.price}</b></span> 
-            <b className={style['SpeaksSection2']}>{props.describtion}</b>
+            <b style={{color: props.darkMode ? 'white' : 'black',}} className={style['SpeaksSection2']}>{props.describtion}</b>
         </div>
     );
 };

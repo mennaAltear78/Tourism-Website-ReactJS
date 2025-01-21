@@ -20,6 +20,10 @@
         margin-inline: auto;
       
     }
+    .headermain{
+        width: 100%;
+        display: flex;
+justify-content: center;    } 
 a{
 text-decoration: none;
 color: white;
@@ -49,4 +53,58 @@ nav{
 .headerSection1 img{
    width: 122px;
    height: 44px;
+}
+.slide {
+    width: 80px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(246, 245, 245);
+    display: flex;
+    align-items: center;
+    
+  }
+  .darkcircle {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    /* kda bdayt el circle off */
+    animation: toggeloff 0.5s linear forwards;
+  }
+  .lightcircle {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+   
+    cursor: pointer;
+    /* kda bdayt el circle off */
+    animation: toggelon 0.5s linear forwards;
+  }
+  input {
+    /* if i clicked it it will not make any thing  */
+    visibility:hidden;
+  } 
+
+  @keyframes toggelon {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(40px);
+    }
+  }
+  @keyframes toggeloff {
+    0% {
+      transform: translateX(40px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+}
+.dark-theme{
+    background-color: black;
+}
+.active{
+    color: orange;
 }

@@ -8,7 +8,7 @@ const ScrollPartner = (props) => {
         <div className={style['ScrollPartner']}>
             <Scroller/>
             <div className={style['ScrollPartnerSection']}>
-                <b>
+                <b style={{color: props.darkMode ? 'white' : 'black',}}>
                 More <span>Than 1000 Partneer</span>
                 </b>
                 <div>

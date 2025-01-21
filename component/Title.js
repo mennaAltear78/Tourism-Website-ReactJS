@@ -6,8 +6,8 @@ const Title = (props) => {
     return (
         <div className={style['TitleMain']} >
             <div className={style['Title']}>
-                <div className={style['startline']} />
-                <b>{props.title}</b></div>
+                <div className={style['startline']}  />
+                <b style={{color: props.darkMode ? 'white' : 'black'}}>{props.title}</b></div>
             <p>
                 {props.description}
             </p>

@@ -12,11 +12,11 @@ const Main = (props) => {
             <div className={style['mainSections']}>
                 <div className={style['mainSectionImg1']}><img src={faceInstaImage} alt="Company Logo" className="logo" /></div>
                 <div>
-                    <div className={style['mainSection1']}>
+                    <div className={style['mainSection1']} style={{color: props.darkMode ? 'white' : 'black',}}>
                         Your Journey to <span>Success Starts Here </span>
                     </div>
                     <div className={style['mainSection2']}>
-                        <pr>
+                        <pr style={{color: props.darkMode ? 'white' : 'gray',}}>
                             "Success is just a step away! Tell us more about yourself and your business,
                             and let us unlock new opportunities for growth together.
                             Don’t hesitate—join our network of trusted partners and take your business to the next level today!"
